@@ -19,7 +19,7 @@
 
 **效果预览**
 
-![](http://i.imgur.com/Tq2JTgg.png)
+![](http://i.imgur.com/qh27iEd.png)
 
 
 **使用**
