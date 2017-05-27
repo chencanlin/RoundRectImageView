@@ -1,6 +1,6 @@
 # RoundRectImageView #
 
-[[![](https://jitpack.io/v/chencanlin/RoundRectImageView.svg)](https://jitpack.io/#chencanlin/RoundRectImageView)]([![](https://jitpack.io/v/chencanlin/RoundRectImageView.svg)](https://jitpack.io/#chencanlin/RoundRectImageView) "Download-1.0.0")
+[[[![](https://jitpack.io/v/chencanlin/RoundRectImageView.svg)](https://jitpack.io/#chencanlin/RoundRectImageView)]([![](https://jitpack.io/v/chencanlin/RoundRectImageView.svg)](https://jitpack.io/#chencanlin/RoundRectImageView) "Download-1.0.0")]([![](https://jitpack.io/v/chencanlin/RoundRectImageView.svg)](https://jitpack.io/#chencanlin/RoundRectImageView) "How to")
 
 **STEP 1**  Add it in your root build.gradle at the end of repositories:
 
@@ -16,3 +16,20 @@
     dependencies {
 	        compile 'com.github.chencanlin:RoundRectImageView:-SNAPSHOT'
 	}
+
+**效果预览**
+
+![](http://i.imgur.com/Tq2JTgg.png)
+
+
+**使用**
+
+    <com.org.ccl.roundrectimageview.view.RoundRectImageView
+            android:id="@+id/rriv_two"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/image"
+            app:xradius="50dp"
+            app:yradius="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
