@@ -45,6 +45,7 @@ public class RoundRectImageView extends ImageView {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.RoundRectImageView);
         mXRadiu = typedArray.getDimension(R.styleable.RoundRectImageView_xradius,0);
         mYRadiu = typedArray.getDimension(R.styleable.RoundRectImageView_yradius,0);
+        typedArray.recycle();
         init();
     }
 
