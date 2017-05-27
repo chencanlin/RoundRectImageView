@@ -98,8 +98,7 @@ public class RoundRectImageView extends ImageView {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        Canvas canvas1 = new Canvas();
-        super.onDraw(canvas1);
+//        super.onDraw(canvas);
         Bitmap dstBitmap = makeDst();
         Bitmap srcBitmap = makeSrc();
         if (srcBitmap == null) {
