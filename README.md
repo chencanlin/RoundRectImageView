@@ -14,7 +14,7 @@
 **STEP 2** Add the dependency
 
     dependencies {
-	        compile 'com.github.chencanlin:RoundRectImageView:1.0.0'
+	        compile 'com.github.chencanlin:RoundRectImageView:1.2.0'
 	}
 
 **效果预览**
